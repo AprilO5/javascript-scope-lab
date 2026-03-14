@@ -1,5 +1,5 @@
 //// ----- Global Variables -----
-let burgers = ["Hamburger", "Cheeseburger"];
+const burgers = ["Hamburger", "Cheeseburger"];
 let featuredDrink = "Strawberry Milkshake";
 
 
@@ -7,7 +7,7 @@ let featuredDrink = "Strawberry Milkshake";
 function addBurger() {
 
   // function-scoped variable
-  let newBurger = "Flatburger";
+  const newBurger = "Flatburger";
 
   // add burger to the menu array
   burgers.push(newBurger);
@@ -19,7 +19,7 @@ function addBurger() {
 if (true) {
 
   // block-scoped variable
-  let anotherNewBurger = "Maple Bacon Burger";
+  const anotherNewBurger = "Maple Bacon Burger";
 
   // update the burger list
   burgers.push(anotherNewBurger);
